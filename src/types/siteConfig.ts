@@ -79,6 +79,7 @@ export type SiteConfig = {
 
 	// 页面开关配置
 	pages: {
+		about: boolean; // 关于页面开关
 		friends: boolean; // 友链页面开关
 		sponsor: boolean; // 打赏页面开关
 		guestbook: boolean; // 留言板页面开关
